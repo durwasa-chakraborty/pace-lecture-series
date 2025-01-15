@@ -1,0 +1,65 @@
+baseURL = "https://example.com/" # Replace with your domain
+languageCode = "en-us"
+title = "PACE Lab, IIT Madras"
+theme = "mainroad"
+
+[params]
+  author = "PACE Lab, IIT Madras"
+  description = "An initiative to promote programming and computational education." # Replace if needed
+  mainSections = ["posts"]
+  dateFormat = "Jan 2, 2006"
+  enableSocialShare = true
+  showReadingTime = true
+  showPostNav = true
+  showComments = false
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
+
+  [[menu.main]]
+    name = "FAQ"
+    url = "/faq/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Getting Started"
+    url = "/getting-started/"
+    weight = 5
+
+[params.social]
+  github = "https://github.com/dummy-url"    # Replace with your GitHub link
+  twitter = "https://twitter.com/dummy-url" # Replace with your Twitter link
+  linkedin = "https://linkedin.com/dummy-url" # Replace with your LinkedIn profile
+
+[params.analytics]
+  google = "" # Leave empty for now or add your Google Analytics ID
+
+[params.disqus]
+  shortname = "" # Leave empty if not using Disqus for comments
+
+[params.highlight]
+  style = "monokai"
