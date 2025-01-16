@@ -43,6 +43,8 @@ The **Mainroad theme from Vimux** is a clean and lightweight Hugo theme that:
 - Provides a professional and responsive layout.
 - Makes it easy to present lecture series content.
 - Supports customization for branding and structure.
+This is to also mention that the theme and the design of the page has been referred from (ILUGC)[https://ilugc.in/]
+
 
 ---
 
@@ -91,6 +93,7 @@ To maintain consistency and traceability in commit history, follow this commit m
 - `DOC:` for documentation updates.
 
 Any commit not matching this regex will be rejected: `^(DEV|INFO|MEET|DOC): .+`
+If you think that the list is not exhaustive, please open an issue and we can expand on that.
 
 ---
 
