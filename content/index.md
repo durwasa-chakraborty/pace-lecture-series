@@ -1,7 +1,6 @@
 +++
 date = '2025-01-16T11:06:40+05:30'
 draft = false
-title = 'PACE Lecture Series: Introduction'
 +++
 
 # Welcome to the **PACE Lecture Series** Page!
