@@ -31,24 +31,14 @@ theme = "mainroad"
     weight = 1
 
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Talks"
+    url = "/talks/"
     weight = 2
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 3
-
-  [[menu.main]]
-    name = "FAQ"
-    url = "/faq/"
-    weight = 4
 
   [[menu.main]]
     name = "Getting Started"
     url = "/getting-started/"
-    weight = 5
+    weight = 3
 
 [params.social]
   github = "https://github.com/dummy-url"    # Replace with your GitHub link
