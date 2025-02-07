@@ -1,15 +1,16 @@
 {{ define "main" }}
-  <h1 class="title">{{ .Title }}</h1>
+  <h1>{{ .Title }}</h1>
   <ul style="list-style-type: disc; padding-left: 20px;">
     {{ range .Pages.ByDate.Reverse }}
       <li style="margin-bottom: 10px;">
         <h3 style="display: inline; margin: 0;">
           <a href="{{ .RelPermalink }}" style="text-decoration: none; color: #000;">
-            {{ .Date.Format "Jan 2, 2006" }} - {{ .Title }}
-            <strong>By {{ .Params.author }}</strong>
+             {{ .Title }}
           </a>
         </h3>
-
+        <span style="font-size: 1rem; color: #666; margin-left: 10px;">
+          <strong>By {{ .Params.author }}</strong>
+        </span>
       </li>
     {{ end }}
   </ul>
