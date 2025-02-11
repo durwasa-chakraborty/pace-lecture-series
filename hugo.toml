@@ -1,6 +1,6 @@
 baseURL = "https://main.d1iq1oyjdrwqfn.amplifyapp.com/"
 languageCode = "en-us"
-title = "PACE LAB Lecture Series"
+title = "Research Huddle"
 theme = "mainroad"
 
 [params]
