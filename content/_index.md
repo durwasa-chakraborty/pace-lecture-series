@@ -1,10 +1,10 @@
 +++
 date = '2025-01-16T11:06:40+05:30'
-title = 'Pace Lecture Series'
+title = 'Research Huddle'
 draft = false
 +++
 
-# Welcome to the **PACE Lecture Series** Page!
+# Welcome to Research Huddle Page!
 
 This site serves as the central hub for cataloging all the monthly and lightning talks hosted by members of the **PACE Lab**. Think of it as our shared knowledge repository—organized, accessible, and chaos-free. Here, you'll find records of what we've discussed and who presented.
 
