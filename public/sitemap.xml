@@ -2,10 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/talks/2025-feb-12-talk-1/</loc>
-    <lastmod>2025-02-07T18:07:10+05:30</lastmod>
+    <loc>http://localhost:1313/talks/2025-feb-27-talk-1/</loc>
+    <lastmod>2025-02-17T11:41:51+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/talks/</loc>
+    <lastmod>2025-02-17T11:41:51+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/talks/2025-feb-12-talk-1/</loc>
     <lastmod>2025-02-07T18:07:10+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/getting-started/</loc>
