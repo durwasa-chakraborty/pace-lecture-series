@@ -18,9 +18,9 @@ Your presentation can take any form: slides, a one-pager, notes from your wiki, 
 
 ---
 
-## 🗓️ Monthly Meets
+## 🗓️ Fortnightly Meets
 
-We meet **twice a month**, every alternate **Wednesday from 6:00 PM to 7:00 PM IST**. Wednesdays are often referred to as the "hump day" of the week — perfect for a midweek academic recharge!
+We meet **twice a month**, every alternate **Thursday 5:00 PM to 6:00 PM IST** - perfect for a midweek academic recharge!
 
 If you'd like to showcase a cool tool or software that makes a researcher's life easier, feel free to bring it along. Let's explore and discuss innovations together.
 
