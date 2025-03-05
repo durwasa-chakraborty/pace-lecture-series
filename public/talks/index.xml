@@ -2,24 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Research Huddle</title>
-    <link>http://localhost:1313/talks/</link>
+    <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/</link>
     <description>Recent content in Talks on Research Huddle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 17 Feb 2025 11:41:51 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Mar 2025 18:09:18 +0530</lastBuildDate>
+    <atom:link href="https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Mar 7 :: Automatically Verifying Replication-aware Linearizability</title>
+      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-7-talk-1/</link>
+      <pubDate>Wed, 05 Mar 2025 18:09:18 +0530</pubDate>
+      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-7-talk-1/</guid>
+      <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Automatically Verifying Replication-aware Linearizability&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Data replication is essential for fault tolerance and low latency in decentralized applications. Replicated Data Types (RDTs) have emerged as a principled approach for developing replicated implementations of basic data structures such as counters, flags, sets, maps, etc. While RDT correctness is often defined by strong eventual consistency, replication-aware linearizability offers a more expressive specification, ensuring that replicas reflect a state obtained by linearizing updates. In this work, we develop a novel fully automated technique for verifying replication-aware linearizability for Mergeable Replicated Data Types (MRDTs). We identify novel algebraic properties for MRDT operations and the merge function, which go beyond the standard notions of commutativity, associativity, and idempotence for proving an implementation to be linearizable. We also develop a novel inductive method called bottom-up linearization for automated verification. We have successfully applied our approach to a number of complex RDT implementations.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2025 Feb 27 :: Concurrent and Parallel programming with OCaml 5</title>
-      <link>http://localhost:1313/talks/2025-feb-27-talk-1/</link>
+      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-27-talk-1/</link>
       <pubDate>Mon, 17 Feb 2025 11:41:51 +0530</pubDate>
-      <guid>http://localhost:1313/talks/2025-feb-27-talk-1/</guid>
+      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-27-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Concurrent and Parallel programming with OCaml 5&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; OCaml 5 has brought native support for concurrency and parallelism to OCaml. In this talk, I will present the concurrent and parallel programming primitives exposed by the compiler, and the design decisions that went into making these features backwards compatible for existing users. I will also describe the libraries and tools that we have built to help users take advantage of new features. Finally, if time permits, I will share our experience with porting a large multi-process-parallel application to a shared-memory-multicore one.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025 Feb 12 :: LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution</title>
-      <link>http://localhost:1313/talks/2025-feb-12-talk-1/</link>
+      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-12-talk-1/</link>
       <pubDate>Fri, 07 Feb 2025 18:07:10 +0530</pubDate>
-      <guid>http://localhost:1313/talks/2025-feb-12-talk-1/</guid>
+      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-12-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Linux kernel employs reference counters, which record the number of references to a shared kernel object, to track its lifecycle and prevent memory errors like use-after-free. However, the usage of reference counters can be tricky and often error-prone, especially considering unique kernel conventions of managing reference counters (e.g., external vs. internal reference counters). In this paper, we aim to automatically discover incorrect usage of reference counters, overcoming two key challenges: (1) scalability and (2) the aforementioned unique kernel conventions. Specifically, we develop a tiered program analysis based solution to efficiently and precisely check the imbalances between the change in the actual number of references and the corresponding reference counter. We apply our tool to the 4.14.0 kernel (with allyesconfig) and find 118 bugs, out of which 87 are new. The result shows our tool is scalable and effective.&lt;/p&gt;</description>
     </item>
   </channel>
