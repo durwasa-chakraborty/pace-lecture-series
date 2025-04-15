@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research Huddle</title>
-    <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Research Huddle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Apr 2025 23:47:53 +0530</lastBuildDate>
-    <atom:link href="https://main.d1iq1oyjdrwqfn.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 Apr 17 :: SkipFlow: Improving the Precision of Points-to Analysis using Primitive Values and Predicate Edges (CGO 25)</title>
-      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-apr-17-talk-1/</link>
+      <link>http://localhost:1313/talks/2025-apr-17-talk-1/</link>
       <pubDate>Tue, 15 Apr 2025 23:47:53 +0530</pubDate>
-      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-apr-17-talk-1/</guid>
+      <guid>http://localhost:1313/talks/2025-apr-17-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; SkipFlow: Improving the Precision of Points-to Analysis using Primitive Values and Predicate Edges (CGO &amp;lsquo;25)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Classical points-to analysis techniques like Andersen’s or Steensgaard’s ignore the branching structure of the program being analysed due to which they may lose some precision. By keeping some additional information like primitive values along with traditional points-to sets, the precision may be increased if only the branches that are possible at runtime are analysed. The authors of this paper propose a novel lightweight and scalable points-to analysis called SkipFlow that interprocedurally tracks the flow of both primitives and objects, and explicitly captures the branching structure of the code using predicate edges. They have applied SkipFlow to GraalVM Native Image, a closed-world solution to building standalone binaries for Java applications. For the evaluation of SkipFlow, they show a reduction in the size of the applications/benchmarks like Dacapo and Renaissance in terms of reachable methods by 9% on average without significantly increasing the analysis time.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025 Mar 31 :: Partial Order Methods for the Verification of Concurrent Systems</title>
-      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-31-talk-1/</link>
+      <link>http://localhost:1313/talks/2025-mar-31-talk-1/</link>
       <pubDate>Tue, 25 Mar 2025 17:28:40 +0530</pubDate>
-      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-31-talk-1/</guid>
+      <guid>http://localhost:1313/talks/2025-mar-31-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Partial Order Methods for the Verification of Concurrent Systems&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Concurrent program verification is crucial for ensuring correctness in systems where multiple processes operate simultaneously and interact through shared resources. A primary method for verifying concurrent programs involves exhaustive exploration of the system&amp;rsquo;s state space to detect potential errors such as deadlocks or race conditions. However, exhaustive search is typically impractical due to the phenomenon of state-space explosion, where the number of possible system states grows exponentially with the number of concurrent processes. To mitigate this challenge, Partial Order Reduction (POR) techniques are employed to significantly reduce the explored state space while preserving verification correctness.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025 Mar 7 :: Automatically Verifying Replication-aware Linearizability</title>
-      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-7-talk-1/</link>
+      <link>http://localhost:1313/talks/2025-mar-7-talk-1/</link>
       <pubDate>Wed, 05 Mar 2025 18:09:18 +0530</pubDate>
-      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-7-talk-1/</guid>
+      <guid>http://localhost:1313/talks/2025-mar-7-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Automatically Verifying Replication-aware Linearizability&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Data replication is essential for fault tolerance and low latency in decentralized applications. Replicated Data Types (RDTs) have emerged as a principled approach for developing replicated implementations of basic data structures such as counters, flags, sets, maps, etc. While RDT correctness is often defined by strong eventual consistency, replication-aware linearizability offers a more expressive specification, ensuring that replicas reflect a state obtained by linearizing updates. In this work, we develop a novel fully automated technique for verifying replication-aware linearizability for Mergeable Replicated Data Types (MRDTs). We identify novel algebraic properties for MRDT operations and the merge function, which go beyond the standard notions of commutativity, associativity, and idempotence for proving an implementation to be linearizable. We also develop a novel inductive method called bottom-up linearization for automated verification. We have successfully applied our approach to a number of complex RDT implementations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025 Feb 27 :: Concurrent and Parallel programming with OCaml 5</title>
-      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-27-talk-1/</link>
+      <link>http://localhost:1313/talks/2025-feb-27-talk-1/</link>
       <pubDate>Mon, 17 Feb 2025 11:41:51 +0530</pubDate>
-      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-27-talk-1/</guid>
+      <guid>http://localhost:1313/talks/2025-feb-27-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Concurrent and Parallel programming with OCaml 5&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; OCaml 5 has brought native support for concurrency and parallelism to OCaml. In this talk, I will present the concurrent and parallel programming primitives exposed by the compiler, and the design decisions that went into making these features backwards compatible for existing users. I will also describe the libraries and tools that we have built to help users take advantage of new features. Finally, if time permits, I will share our experience with porting a large multi-process-parallel application to a shared-memory-multicore one.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2025 Feb 12 :: LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution</title>
-      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-12-talk-1/</link>
+      <link>http://localhost:1313/talks/2025-feb-12-talk-1/</link>
       <pubDate>Fri, 07 Feb 2025 18:07:10 +0530</pubDate>
-      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-12-talk-1/</guid>
+      <guid>http://localhost:1313/talks/2025-feb-12-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; LinKRID: Vetting Imbalance Reference Counting in Linux kernel with Symbolic Execution&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Linux kernel employs reference counters, which record the number of references to a shared kernel object, to track its lifecycle and prevent memory errors like use-after-free. However, the usage of reference counters can be tricky and often error-prone, especially considering unique kernel conventions of managing reference counters (e.g., external vs. internal reference counters). In this paper, we aim to automatically discover incorrect usage of reference counters, overcoming two key challenges: (1) scalability and (2) the aforementioned unique kernel conventions. Specifically, we develop a tiered program analysis based solution to efficiently and precisely check the imbalances between the change in the actual number of references and the corresponding reference counter. We apply our tool to the 4.14.0 kernel (with allyesconfig) and find 118 bugs, out of which 87 are new. The result shows our tool is scalable and effective.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Getting Started</title>
-      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/getting-started/</link>
+      <link>http://localhost:1313/getting-started/</link>
       <pubDate>Thu, 16 Jan 2025 11:06:40 +0530</pubDate>
-      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/getting-started/</guid>
+      <guid>http://localhost:1313/getting-started/</guid>
       <description>&lt;h2 id=&#34;volunteering-for-a-talk&#34;&gt;Volunteering for a Talk&lt;/h2&gt;&#xA;&lt;p&gt;Want to volunteer for a talk? Fantastic! Just get in touch with the PACE Lab admin. The submission format for your talk details, along with the guidelines, is conveniently available on the website. Heads-up: the format may get an upgrade from time to time to keep things smooth and consistent. Pro tip—volunteer before the system randomly assigns you a talk. (Trust me, it’s less fun when the choice isn’t yours.) Participation isn’t just encouraged—it’s what makes this whole thing work!&lt;/p&gt;</description>
     </item>
   </channel>
