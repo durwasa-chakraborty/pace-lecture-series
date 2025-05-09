@@ -2,32 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/</loc>
+    <loc>http://localhost:1313/talks/2025-may-12-talk-1/</loc>
     <lastmod>2025-05-09T23:41:49+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-apr-17-talk-1/</loc>
+    <loc>http://localhost:1313/talks/</loc>
+    <lastmod>2025-05-09T23:41:49+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/talks/2025-apr-17-talk-1/</loc>
     <lastmod>2025-04-15T23:47:53+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-31-talk-1/</loc>
+    <loc>http://localhost:1313/talks/2025-mar-31-talk-1/</loc>
     <lastmod>2025-03-25T17:28:40+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-mar-7-talk-1/</loc>
+    <loc>http://localhost:1313/talks/2025-mar-7-talk-1/</loc>
     <lastmod>2025-03-05T18:09:18+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-27-talk-1/</loc>
+    <loc>http://localhost:1313/talks/2025-feb-27-talk-1/</loc>
     <lastmod>2025-02-17T11:41:51+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-feb-12-talk-1/</loc>
+    <loc>http://localhost:1313/talks/2025-feb-12-talk-1/</loc>
     <lastmod>2025-02-07T18:07:10+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/getting-started/</loc>
+    <loc>http://localhost:1313/getting-started/</loc>
     <lastmod>2025-01-16T11:06:40+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-01-16T11:06:40+05:30</lastmod>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://main.d1iq1oyjdrwqfn.amplifyapp.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
