@@ -10,9 +10,9 @@
     <atom:link href="https://main.d1iq1oyjdrwqfn.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 Jun 04 :: Introduction to Quantum Computing</title>
-      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-jun-05-talk-1/</link>
+      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-jun-04-talk-1/</link>
       <pubDate>Sat, 31 May 2025 09:38:04 +0530</pubDate>
-      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-jun-05-talk-1/</guid>
+      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-jun-04-talk-1/</guid>
       <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt;  Introduction to Quantum Computing&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; In this talk, the presenter will introduce key concepts in quantum computing. We’ll begin by exploring the differences between classical and quantum computers, then move on to the basics of quantum state vectors and the Dirac notation commonly used to represent them. The discussion will continue with an overview of quantum gates, their action on qubits, and the role of quantum measurement. Finally, we’ll develop an intuitive understanding of Grover’s Search Algorithm and examine how it provides a quadratic speedup over classical search techniques.&lt;/p&gt;</description>
     </item>
     <item>
