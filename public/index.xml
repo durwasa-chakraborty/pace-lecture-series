@@ -6,8 +6,15 @@
     <description>Recent content on Research Huddle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 May 2025 09:38:04 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 08 Jun 2025 13:22:03 +0530</lastBuildDate>
     <atom:link href="https://main.d1iq1oyjdrwqfn.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Jun 11 :: An MLIR Dialect for Distributed Heterogeneous Computing</title>
+      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-jun-11-talk-1/</link>
+      <pubDate>Sun, 08 Jun 2025 13:22:03 +0530</pubDate>
+      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-jun-11-talk-1/</guid>
+      <description>&lt;h4 id=&#34;talk-1&#34;&gt;&lt;strong&gt;Talk 1&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; An MLIR Dialect for Distributed Heterogeneous Computing&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; We present a new MLIR dialect designed for distributed heterogeneous computing. Modern compute clusters often consist of a diverse mix of hardware architectures, making code generation and orchestration across such systems complex and error-prone. Our dialect simplifies this challenge by providing abstractions that enable coordination and code generation for heterogeneous compute environments, allowing developers to target CPUs, GPUs, and accelerators across distributed nodes with ease.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2025 Jun 04 :: Introduction to Quantum Computing</title>
       <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2025-jun-04-talk-1/</link>
