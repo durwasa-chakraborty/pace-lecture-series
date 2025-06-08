@@ -1,7 +1,7 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   <ul style="list-style-type: disc; padding-left: 20px;">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range (.Site.GetPage "section" "talks").RegularPagesRecursive.ByDate.Reverse }}
       <li style="margin-bottom: 10px; display: flex; align-items: center;">
         <h3 style="display: inline; margin: 0; max-width: 70%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
           <a href="{{ .RelPermalink }}" style="text-decoration: none; color: #000;">
