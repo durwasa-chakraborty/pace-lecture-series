@@ -107,7 +107,89 @@ If you think that the list is not exhaustive, please open an issue and we can ex
 - [AWS CDK Documentation](https://docs.aws.amazon.com/cdk/latest/guide/home.html)
 - [Getting Started with CDK](https://docs.aws.amazon.com/cdk/latest/guide/work-with.html)
 
+
+
+This guide walks you through contributing a new talk to the PACE Lecture Series website.
+
+### 1. Fork and Clone the Repository
+
+First, fork the repository to your GitHub account and then clone it locally:
+
+```bash
+git clone [https://github.com/](https://github.com/)<your-username>/pace-lecture-series.git
+cd pace-lecture-series
+````
+
+### 2\. Install Submodules
+
+Run the following command to initialize the required themes:
+
+```bash
+git submodule update --init --recursive
+```
+
+This ensures that the necessary submodules (themes) are downloaded. It also fixes Issue \#2.
+
+### 3\. Create a New Talk Page
+
+Use Hugo to create a new talk page:
+
+```bash
+hugo new talks/YYYY-Mmm-DD-talk-1.md
+```
+
+For example:
+
+```bash
+hugo new talks/2025-Aug-05-talk-1.md
+```
+
+This will generate a file at `content/talks/YYYY-Mmm-DD-talk-1.md` with a default front matter where `draft = true`.
+
+**Remember to set draft = false once you’re ready to publish.**
+
+### 4\. Follow the Standard Format
+
+Each talk entry should follow this structure:
+
+**Note:** Use the format **'YYYY Mmm DD :: Talk Title'** for the title.
+
+This will be displayed on the site, so consistency is important.
+
+### 5\. Preview the Site Locally
+
+To preview draft and published content locally:
+
+```bash
+hugo server -D
+```
+
+To preview only published content:
+
+```bash
+hugo server
+```
+
+Then open your browser and navigate to:
+`http://localhost:1313`
+
+### 6\. Submit a Pull Request
+
+Once you’re happy with the result, push your changes and create a Pull Request to the main repository.
+
+### 7\. View Changes Live
+
+This site uses CI/CD via AWS Amplify.
+
+After your PR is merged, changes will automatically be deployed to:
+`https://main.d1iq1oyjdrwqfn.amplifyapp.com/`
+
+```
+```
 ---
+
+
+
 
 ## Questions or Support
 For any issues or questions, feel free to open an issue in this repository or reach out to the maintainers.
