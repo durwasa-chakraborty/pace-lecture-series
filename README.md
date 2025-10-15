@@ -128,7 +128,7 @@ Run the following command to initialize the required themes:
 git submodule update --init --recursive
 ```
 
-This ensures that the necessary submodules (themes) are downloaded. It also fixes Issue \#2.
+This ensures that the necessary submodules (themes) are downloaded. It also fixes [Issue \#2](https://github.com/durwasa-chakraborty/pace-lecture-series/issues/2).
 
 ### 3\. Create a New Talk Page
 
