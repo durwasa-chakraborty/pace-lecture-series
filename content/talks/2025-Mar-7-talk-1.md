@@ -1,7 +1,7 @@
 +++
 date = '2025-03-05T18:09:18+05:30'
 draft = false
-slides = 'https://example.com/slides'
+slides = ''
 recording = ''
 title = '2025 Mar 7 :: Automatically Verifying Replication-aware Linearizability'
 author = 'Vimala Soundarapandian'
