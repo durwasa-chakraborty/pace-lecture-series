@@ -2,3 +2,5 @@ node_modules/
 cdk.out/
 hugo/public/
 .DS_Store
+next_talk.template
+next_talk_email.txt
