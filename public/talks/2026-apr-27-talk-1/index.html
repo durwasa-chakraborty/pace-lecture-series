@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>2025 Nov 3 :: Linkers in C / C&#43;&#43; - Research Huddle</title>
+	<title>2026 Apr 27 :: Unique Worker Model for CUDA - Research Huddle</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -66,28 +66,31 @@
 		<div class="wrapper flex">
 			<div class="primary">
 			
-  <h1>2025 Nov 3 :: Linkers in C / C&#43;&#43;</h1>
-  <p><strong>Speaker:</strong> Pranav Ramesh</p>
+  <h1>2026 Apr 27 :: Unique Worker Model for CUDA</h1>
+  <p><strong>Speaker:</strong> Yuvraj Talukdar</p>
   <hr>
-  <h4 id="talk-1"><strong>Talk 1</strong></h4>
+  <h4 id="talk"><strong>Talk</strong></h4>
 <ul>
 <li>
-<p><strong>Topic:</strong> Linkers in C / C++</p>
+<p><strong>Topic:</strong> Unique Worker Model for CUDA</p>
 </li>
 <li>
-<p><strong>Description:</strong> The last step in the compiler toolchain is often one of the least studied. After the advent of the notion of separate compilation, multiple developers can code up individual source files, which ultimately get linked to obtain the final executable. Most of this talk would discuss the various steps involved in linking at a high level, and delve into aspects such as the Global Offset Table (GOT), and the Procedure Linkage Table (PLT), as well as how C++ constructs such as name mangling and templates are supported while linking.</p>
+<p><strong>Description:</strong> GPU programming portability remains hindered by a subtle but pervasive issue: CUDA kernels are routinely written with implicit assumptions about the number of threads per block (NTPB), a hardware-dependent parameter that varies across GPU generations, vendors, and even runtime resource availability. We present the Unique Worker (UW) Model for CUDA, a compiler-driven framework that decouples program logic from hardware-specific thread counts and guarantees semantic portability — correct execution on any GPU, regardless of the NTPB the hardware can feasibly provide at runtime — as a property complementary to, and independent of, performance portability.
+Our approach is realized as an AST-to-AST transformation in LLVM 20 and is, to our knowledge, the first compiler framework to correctly handle __syncthreads nested inside arbitrary if/while constructs in the context of CUDA thread coarsening. The model extends prior UW work on OpenMP to CUDA and to NVIDIA, AMD, and Apple GPU backends, enabling cross-vendor porting; we demonstrate this by automatically translating programs validated on Apple Metal to run on NVIDIA CUDA.
+We evaluate the implementation — roughly 12,000 lines of C++/LLVM code, released as open source — on eleven benchmarks across two NVIDIA platforms (Tesla V100 and RTX 3050 Mobile). The transformed programs execute correctly across all tested NTPB configurations, successfully run four benchmarks that previously crashed due to resource constraints, and achieve a geometric mean speedup of 95.8%–96.8% over a naive unoptimized translation.
+More details :: <a href="https://docs.google.com/document/d/1ObZZaZQiqY9Kz3bASkO9WTWyqLAKUH-D28k4Y2YtT-I/edit?tab=t.0">https://docs.google.com/document/d/1ObZZaZQiqY9Kz3bASkO9WTWyqLAKUH-D28k4Y2YtT-I/edit?tab=t.0</a></p>
 </li>
 <li>
-<p><strong>Time:</strong> 6:30 to 7:30 pm (IST)</p>
+<p><strong>Time</strong> 5 pm to 6 pm (IST)</p>
 </li>
 <li>
-<p><strong>Presenter:</strong> Pranav Ramesh</p>
+<p><strong>Presenter:</strong> Yuvraj Talukdar</p>
 </li>
 <li>
 <p><strong>About the Presenter:</strong> <a href="https://www.linkedin.com/in/pranav-ramesh-6ab8a7318/">https://www.linkedin.com/in/pranav-ramesh-6ab8a7318/</a></p>
 </li>
 <li>
-<p><strong>URL:</strong> <a href="https://meet.google.com/yvj-askr-dob">https://meet.google.com/yvj-askr-dob</a></p>
+<p><strong>URL</strong> : <a href="https://meet.google.com/bje-dtya-dyn">https://meet.google.com/bje-dtya-dyn</a></p>
 </li>
 </ul>
 

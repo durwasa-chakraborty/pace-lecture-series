@@ -232,6 +232,12 @@ let () =
   close_out oc;
   Printf.printf "Wrote: %s\n%!" path;
 
+  (* Write email first — always succeeds regardless of git outcome *)
+  let oc = open_out email_file in
+  output_string oc (email_content t);
+  close_out oc;
+  Printf.printf "Email written to: %s\n%!" email_file;
+
   (* Build (sanity check — Amplify also builds on deploy) *)
   run "hugo";
 
@@ -239,10 +245,4 @@ let () =
   run (Printf.sprintf "git add %s" path);
   run (Printf.sprintf "git commit -m \"INFO :: add talk %s %s - %s\""
          base t.speaker t.title);
-  run "git push";
-
-  (* Write email *)
-  let oc = open_out email_file in
-  output_string oc (email_content t);
-  close_out oc;
-  Printf.printf "Email written to: %s\n%!" email_file
+  run "git push"
