@@ -6,8 +6,15 @@
     <description>Recent content in Talks on Research Huddle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2026 01:31:21 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 19:31:14 +0530</lastBuildDate>
     <atom:link href="https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026 May 12 :: GC-Integrated Resource Reclamation for Abandoned Fibers in Multicore OCaml</title>
+      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2026-may-12-talk-1/</link>
+      <pubDate>Sun, 10 May 2026 19:31:14 +0530</pubDate>
+      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2026-may-12-talk-1/</guid>
+      <description>&lt;h4 id=&#34;talk&#34;&gt;&lt;strong&gt;Talk&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; GC-Integrated Resource Reclamation for Abandoned Fibers in Multicore OCaml&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; How abandoned continuations in Multicore OCaml 5 can leak both fiber&#xA;stack memory and external resources when they are never resumed. A runtime&#xA;design that integrates continuation tracking with the garbage collector so&#xA;unreachable suspended fibers can be detected and safely cleaned up.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt; 5 pm to 6 pm (IST)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Presenter:&lt;/strong&gt; Sagar Biswas&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;About the Presenter:&lt;/strong&gt; &lt;a href=&#34;https://mrsagarbiswas.dpdns.org&#34;&gt;https://mrsagarbiswas.dpdns.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;URL&lt;/strong&gt; : &lt;a href=&#34;https://meet.google.com/ygz-izvd-vvm&#34;&gt;https://meet.google.com/ygz-izvd-vvm&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2026 Apr 27 :: Unique Worker Model for CUDA</title>
       <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2026-apr-27-talk-1/</link>
