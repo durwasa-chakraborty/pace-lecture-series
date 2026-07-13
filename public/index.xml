@@ -6,8 +6,15 @@
     <description>Recent content on Research Huddle</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2026 17:47:16 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 15:37:03 +0530</lastBuildDate>
     <atom:link href="https://main.d1iq1oyjdrwqfn.amplifyapp.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026 Jul 14 :: Making sense of eBPF</title>
+      <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2026-jul-14-talk-1/</link>
+      <pubDate>Mon, 13 Jul 2026 15:37:03 +0530</pubDate>
+      <guid>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2026-jul-14-talk-1/</guid>
+      <description>&lt;h4 id=&#34;talk&#34;&gt;&lt;strong&gt;Talk&lt;/strong&gt;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Topic:&lt;/strong&gt; Making sense of eBPF&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Formal verification—the practice of proving that a program is correct&#xA;for every possible input, not merely those that have been tested—is widely&#xA;regarded as specialist work. This talk argues that this reputation is largely a&#xA;teaching problem. Using familiar pen-and-paper arithmetic algorithms as case&#xA;studies, I show that the central ideas of formal verification—specifications,&#xA;loop invariants, induction, and termination—are already latent in these&#xA;algorithms and emerge naturally once we ask why they work. The accompanying&#xA;open-access book, Learn2Lean, makes this concrete: each chapter implements one&#xA;algorithm in Lean 4, proves it correct, and pairs the proof with step-by-step&#xA;visualizations and an in-browser exercise checker that compiles real Lean code&#xA;against student submissions. The goal is a path into formal verification where&#xA;the only barrier is understanding the ideas themselves.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2026 Jul 15 :: Making sense of eBPF</title>
       <link>https://main.d1iq1oyjdrwqfn.amplifyapp.com/talks/2026-jul-15-talk-1/</link>
