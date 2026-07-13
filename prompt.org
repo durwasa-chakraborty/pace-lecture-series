@@ -1,0 +1,15 @@
+#+title: Prompt
+
+* here is what i want already we have a template that creates emails
+* we have a template that uploads to a website.
+* well i want more
+** i want a website where students can just select a day in the calendar and fill the detail
+*** name
+*** abstract
+*** title
+*** about the speaker (linkedin/blog)
+** then i want you to create a google calendar event with email sent to cs24d011@cse.iitm.ac.in (after testing we will make it into something else)
+** i also want you to drop an email to kc sir asking for room booking for testing we can again send the email to cs24d011@cse.iitm.ac.in (for now)
+** you will obviously need some google apis credential and some keys we will host it from aws so you will need all that
+** there should be an admin (like me) who can approve it. once this is all approved i want you to show in UI what all is done like a phase generate website phase 2 send calendar invite phase 3
+** create a full plan around it first and save the plan in prompt.md maybe you will have to create it in some other ~/programming directory maybe
